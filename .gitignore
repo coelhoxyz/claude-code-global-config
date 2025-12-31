@@ -4,5 +4,6 @@
 # Except these files
 !.gitignore
 !CLAUDE.md
+!PLUGINS.md
 !README.md
 !LICENSE

@@ -15,6 +15,7 @@ A curated, production-ready global `CLAUDE.md` configuration for [Claude Code](h
 - **Smart workflow** - explore before implementing, plan before coding
 - **Git best practices** - clear commits, no credential leaks
 - **Readability first** - clarity over cleverness
+- **Curated plugins list** - recommended plugins for enhanced productivity
 
 ## Quick Start
 
@@ -50,6 +51,23 @@ curl -o ~/.claude/CLAUDE.md https://raw.githubusercontent.com/coelhoxyz/claude-c
 ## Communication
 - Ask clarifying questions before architectural changes
 - Explain reasoning for non-obvious decisions
+```
+
+## Recommended Plugins
+
+Check out [PLUGINS.md](PLUGINS.md) for a curated list of plugins:
+
+| Plugin | Description |
+|--------|-------------|
+| `playwright` | Browser automation and testing |
+| `frontend-design` | Frontend design assistance |
+| `security-guidance` | Security best practices |
+| `vercel` | Vercel deployment integration |
+| `figma` | Figma design integration |
+
+```bash
+# Example: Install playwright plugin
+claude plugin install playwright@claude-plugins-official
 ```
 
 ## Customization
